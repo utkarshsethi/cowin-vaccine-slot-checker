@@ -16,8 +16,8 @@ class SlotChecker:
     def __init__(self):
         self.DISTRICT_IDS = [(395, "Mumbai"), (392, "Thane")]
         self.NUM_WEEKS = 5
-        self.MIN_AGE = [18,45]
-        self.MIN_CAPACITY = 5
+        self.MIN_AGE = [18]
+        self.MIN_CAPACITY = 3
         self.DATES = []
         self.URL = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id={}&date={}"
         self.ALARM = True
