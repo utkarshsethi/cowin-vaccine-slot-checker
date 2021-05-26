@@ -18,6 +18,7 @@ class SlotChecker:
         self.NUM_WEEKS = 5
         self.MIN_AGE = [18]
         self.MIN_CAPACITY = 3
+        self.FEE = ["Paid","Free"]      #to-do
         self.DATES = []
         self.URL = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id={}&date={}"
         self.ALARM = True
